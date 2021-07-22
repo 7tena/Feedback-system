@@ -28,36 +28,36 @@ the lecturers.
 
 
 ## Design
-- [ ] Use Case Diagram
 - [ ] ER Diagram
+- [ ] Use Case Diagram
 - [ ] Data Flow Diagram
 
 
 ## Users and functionalities
 - [ ] Admin 
-    - Add Departments 
     - Add HODs
+    - Add Departments 
 
-- [ ] HOD 
-    - Add classes and corresponding subjects in the system  
-    - Add students to the registered classes
-    - View feedbacks from students
+- [ ] HOD
     - Generate Reports
+    - View feedbacks from students  
+    - Add students to the registered classes 
+    - Add classes and corresponding subjects in the system
 
 - [ ] Student
-    - Select available subjects with corresponding teachers
     - Give feedback for the courses and faculty
+    - Select available subjects with corresponding teachers
 
 
 ## Implementation Details
 > The tech stacks used for the feedback sysytem involves :
 
-    1. Node.js for developing the backend of the application
-    2. MySql engine is used as the database
-    3. Sequelize for ORM (Object Relational Mapping)
-    4. Express web framework
-    5. EJS view engine to design HTML page
-    6. Nodemon package to run the node server
+    1. Express web framework
+    2. EJS view engine to design HTML page
+    3. MySql engine is used as the database
+    4. Nodemon package to run the node server
+    5. Sequelize for ORM (Object Relational Mapping)
+    6. Node.js for developing the backend of the application 
 
 
 ## UI Snippets
@@ -66,8 +66,8 @@ the lecturers.
 ## Conclusion and Future Scope
 The project was hosted with minimal functionalities using basic technologies. The
 future scope of the project includes the following modifications :
-1. Improving the UI to increase the user experience
-2. Allowing students to submit feedback whenever they wish to do it, instead of the
-current model which only takes feedback at the end of the semester
-3. To include a notification system that alerts the faculty when a student has submitted
+- Improving the UI to increase the user experience
+- To include a notification system that alerts the faculty when a student has submitted
 a feedback for him/her.
+- Allowing students to submit feedback whenever they wish to do it, instead of the
+current model which only takes feedback at the end of the semester
